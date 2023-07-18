@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lista Supermarket</title>
+    <link rel="stylesheet" 
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+          crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./css/cssf1.css">
+</head>
+
+<body>
+    <h1 id="text1" class="text-center">Lista Menú</h1>
+
+    <hr>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-2 mb-2">
+                <label id="titp"> PRODUCTOS: </label>
+            </div>
+
+            <div class="col-10 mb-2">     
+                <input class="form-control" type="text" name="product" id="product" 
+                    placeholder="Agregue el producto a la lista">
+            </div>
+
+            <div class="col mb-2" style="align-content: center;margin: 5%;">
+                <button id="boton" type="button" class="btn btn-info" onclick="sumpr()"> Agregar </button>
+            </div>
+
+        </div>
+
+        <div style=" text-align: justify; margin: 5%;">
+            <h2 class="text-center mb-2" id="text2"> Lista de productos </h2>
+            <hr>
+            <div class="row text" id="contents"> Aun no hay elementos</div>
+    </div>
+
+
+    <script src="./java/javform.js"></script>
+    
+</body>
+</html>

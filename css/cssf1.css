@@ -1,0 +1,44 @@
+body {
+    background-image: url('https://st2.depositphotos.com/1292719/8122/v/600/depositphotos_81228994-stock-illustration-fast-food-doodles-hand-drawn.jpg');
+    background-size: cover; 
+    background-blend-mode:darken;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+
+#text1 {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+}
+
+#text2 {
+    font-family: 'Lobster Two', cursive;
+    color: white;
+}
+
+#titp {
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+    color: rgb(190, 185, 185);
+}
+
+#buton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #70acdb;
+    border: none;
+    border-radius: 5px;
+  }
+  
+#buton:active {
+    box-shadow: 0 0 10px rgba(223, 131, 131, 0.5);
+  }
+
+#contents {
+  background-color: aliceblue;
+}
+
+   
+
+

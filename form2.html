@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Ferretería </title>
+    <link rel="stylesheet" 
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+          crossorigin="anonymous">
+          <link rel="stylesheet" type="text/css" href="./css/cssf2.css">
+</head>
+
+<body>
+
+
+    <h1 class="text-center">Añadir Materiales</h1>
+    <hr>
+<div class="texts">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-1 mb-1"> 
+                <label> PEDIDO:</label>
+            </div>
+
+            <div class="col-5 mb-2">
+                <input type="text" class="form-control" name="NumP" id="NumP" 
+                placeholder="Escribe el número del pedido">
+           </div>    
+           
+           <div class="col-1 mb-1"> 
+                <label> CANTIDAD:</label>
+            </div>
+
+            <div class="col-5 mb-2">
+                <input type="text" class="form-control" name="CatP" id="CatP" 
+                placeholder="Añada la cantidad del producto">
+           </div>  
+           
+           <div class="col-1 mb-2"> 
+                <label> PRODUCTO:</label>
+            </div>
+
+            <div class="col-5 mb-2">
+                <input type="text" class="form-control" name="ProM" id="ProM" 
+                placeholder="Escribe el material a añadir">
+           </div>    
+
+           <div class="col-1 mb-1"> 
+                <label> VALOR:</label>
+            </div>
+
+            <div class="col-5 mb-2">
+                <input type="text" class="form-control" name="valueM" id="valueM" 
+                placeholder="Escribe el valor que desea ponerle">
+           </div>    
+
+            <div class="col text-center mb-2">
+                <button type="button" class="btn btn-info" onclick="sumMat()"> Agregar </button>
+            </div>
+        </div>
+
+        <div style="text-align: justify; margin: 5%;">
+            <h2 class="text-center mb-3"> 
+                Lista de materiales 
+            </h2>
+</div>
+            <hr>
+            <div id="pedido"  style="text-align: center; margin: 5%;">
+                |PEDIDO|----------------|CANTIDAD|------------------|PRODUCTO|------------|VALOR|------------------|ELIMINAR|
+            </div>
+            <hr>
+            <div style="text-align: center;"  class="row" id="Materials"> 
+                aun no hay materiales
+            </div>
+
+        </div>
+    </div>
+    <script src="./java/javform2.js">  </script>
+    
+</body>
+</html>
